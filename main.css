@@ -1,0 +1,94 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+.main{
+    background-color:  hsl(205.71deg 33.33% 95.88%);
+    height: auto;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+.second{
+    
+    height: auto;
+    width: 77rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.title-function{
+   
+    height: 23rem;
+    padding: 9rem auto;
+    display: flex;
+   
+   
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.title-function h1{
+    font-size: 3rem;
+    color: hsl(204.8deg 86.21% 17.06%);
+}
+.in{
+    display: flex;
+    margin-top: 3rem;
+    justify-content: space-around;
+   
+    width: 38rem;
+    align-items: center;
+}
+.in h2{
+    color: hsl(204.8deg 86.21% 17.06%);
+    font-size: 3rem;
+}
+.amount{
+    color: hsl(209.45deg 22.09% 48.82%);
+    width: 5rem;
+    font-size: 2rem;
+    height: 3rem;
+}
+.gen{
+    height: 3rem;
+    width: 8rem;
+  
+    border: none;
+    outline: none;
+    border-radius: 1rem;
+    color: hsl(209.45deg 22.09% 48.82%);
+    cursor: pointer;
+    background-color:rgb(170, 237, 246) ;
+}
+
+.gen:hover{
+    background-color: rgb(5, 179, 202);
+}
+.gen:active{
+    color: hsl(204.8deg 86.21% 17.06%);
+}
+
+.phara{
+    width: 55rem;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.phara p{
+    color: hsl(209.45deg 22.09% 48.82%);
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 3rem 1rem;
+
+}
